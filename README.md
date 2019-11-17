@@ -2,15 +2,14 @@
 Simple Object Detection by using ImageAI via laptop camera
 
 Set up Python 3.5: https://www.python.org/downloads/release/python-350/
-CUDA Toolkit 9.0: https://developer.nvidia.com/cuda-90-download-archive
-If there is an error about missing cudart64_100.dll, 
-resolve it by unzipping cudart64_100.dll_.zip and copy it in ~/NVIDIA GPU Computing Toolkit/CUDA/v9.0/bin
-
-1. Set up environments and required models:
- 1.1. Tensorflow and Tensorflow-gpu: 1.4.0 or later versions, but MUSTE BE < 2.0
- 1.2. The rest of libs: numpy, scipy, opencv-python, opencv-python, pillow, matplotlib, h5py, keras
-      ImageAI:   pip install https://github.com/OlafenwaMoses/ImageAI/releases/download/2.0.1/imageai-2.0.1-py3-none-any.whl
-      Install:   pip3 install tensorflow==1.xx     (E.g: 1.15)
+CUDA Toolkit 9.0: https://developer.nvidia.com/cuda-90-download-archive\
+If there is an error about missing cudart64_100.dll, resolve it by unzipping cudart64_100.dll_.zip and copy it in ~/NVIDIA GPU Computing Toolkit/CUDA/v9.0/bin
+\
+1. Set up environments and required models:\
+ 1.1. Tensorflow and Tensorflow-gpu: 1.4.0 or later versions, but MUSTE BE < 2.0\
+ 1.2. The rest of libs: numpy, scipy, opencv-python, opencv-python, pillow, matplotlib, h5py, keras\
+      ImageAI:   pip install https://github.com/OlafenwaMoses/ImageAI/releases/download/2.0.1/imageai-2.0.1-py3-none-any.whl\
+      Install:   pip3 install tensorflow==1.xx     (E.g: 1.15)\
                  pip3 install tensorflow-gpu==1.xx (E.g: 1.15)
                  pip3 install numpy
                  pip3 install scipy
