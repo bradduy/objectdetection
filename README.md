@@ -3,7 +3,7 @@ Simple Object Detection by using ImageAI via laptop camera
 
 Set up Python 3.5: https://www.python.org/downloads/release/python-350/<br/>
 CUDA Toolkit 9.0: https://developer.nvidia.com/cuda-90-download-archive<br/>
-If there is an error about missing cudart64_100.dll, resolve it by unzipping cudart64_100.dll_.zip and copy it in ~/NVIDIA GPU Computing Toolkit/CUDA/v9.0/bin
+If there is an error about missing cudart64_100.dll, resolve it by unzipping cudart64_100.dll_.zip and copy it in <br/> ~/NVIDIA GPU Computing Toolkit/CUDA/v9.0/bin
 
 1. Set up environments and required models:\
  1.1. Tensorflow and Tensorflow-gpu: 1.4.0 or later versions, but MUSTE BE < 2.0\
@@ -29,14 +29,7 @@ If there is an error about missing cudart64_100.dll, resolve it by unzipping cud
    3.2: method .CustomObjects(): add object's name to detect what you want to\
        Note: With some have more than 1 word, add underscore(_) between them. (E.g cell phone should be cell_phone)\
        - List of object name:\
-          person,  bicycle,  car, motorcycle, airplane, bus, train,  truck,  boat,  traffic light,  fire hydrant, stop_sign,
-          parking meter,   bench,   bird,   cat,   dog,   horse,   sheep,   cow,   elephant,   bear,   zebra,
-          giraffe,   backpack,   umbrella,   handbag,   tie,   suitcase,   frisbee,   skis,   snowboard,
-          sports ball,   kite,   baseball bat,   baseball glove,   skateboard,   surfboard,   tennis racket,
-          bottle,   wine glass,   cup,   fork,   knife,   spoon,   bowl,   banana,   apple,   sandwich,   orange,
-          broccoli,   carrot,   hot dog,   pizza,   donot,   cake,   chair,   couch,   potted plant,   bed,
-          dining table,   toilet,   tv,   laptop,   mouse,   remote,   keyboard,   cell phone,   microwave,   oven,
-          toaster,   sink,   refrigerator,   book,   clock,   vase,   scissors,   teddy bear,   hair dryer,   toothbrush.
-       <check it here https://github.com/OlafenwaMoses/ImageAI/tree/master/imageai/Detection>\
+          **person,  bicycle,  car, motorcycle, airplane, bus, train,  truck,  boat,  traffic light,  fire hydrant, stop_sign,           parking meter,   bench,   bird,   cat,   dog,   horse,   sheep,   cow,   elephant,   bear,   zebra, giraffe,   backpack,   umbrella,   handbag,   tie,   suitcase,   frisbee,   skis,   snowboard, sports ball,   kite,   baseball bat,   baseball glove,   skateboard,   surfboard,   tennis racket, bottle,   wine glass,   cup,   fork,   knife,   spoon,   bowl,   banana,   apple,   sandwich,   orange, broccoli,   carrot,   hot dog,   pizza,   donot,   cake,   chair,   couch,   potted plant,   bed, dining table,   toilet,   tv,   laptop,   mouse,   remote,   keyboard,   cell phone,   microwave,   oven,toaster,   sink,   refrigerator,   book,   clock,   vase,   scissors,   teddy bear,   hair dryer,   toothbrush.**<br/>
+       <check it here https://github.com/OlafenwaMoses/ImageAI/tree/master/imageai/Detection><br/>
    4. Have fun with this!
       
