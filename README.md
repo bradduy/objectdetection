@@ -1,14 +1,14 @@
 # OBJECT_DETECTION
 Simple Object Detection by using ImageAI via laptop camera
 
-Set up Python 3.5: https://www.python.org/downloads/release/python-350/
-CUDA Toolkit 9.0: https://developer.nvidia.com/cuda-90-download-archive \
+Set up Python 3.5: https://www.python.org/downloads/release/python-350/<br/>
+CUDA Toolkit 9.0: https://developer.nvidia.com/cuda-90-download-archive<br/>
 If there is an error about missing cudart64_100.dll, resolve it by unzipping cudart64_100.dll_.zip and copy it in ~/NVIDIA GPU Computing Toolkit/CUDA/v9.0/bin
 
 1. Set up environments and required models:\
  1.1. Tensorflow and Tensorflow-gpu: 1.4.0 or later versions, but MUSTE BE < 2.0\
  1.2. The rest of libs: numpy, scipy, opencv-python, opencv-python, pillow, matplotlib, h5py, keras\
-      ImageAI:   pip install https://github.com/OlafenwaMoses/ImageAI/releases/download/2.0.1/imageai-2.0.1-py3-none-any.whl \
+      ImageAI:   pip install https://github.com/OlafenwaMoses/ImageAI/releases/download/2.0.1/imageai-2.0.1-py3-none-any.whl<br/>
       Install:   pip3 install tensorflow==1.xx     (E.g: 1.15)\
                  pip3 install tensorflow-gpu==1.xx (E.g: 1.15)\
                  pip3 install numpy\
@@ -21,12 +21,12 @@ If there is an error about missing cudart64_100.dll, resolve it by unzipping cud
                  pip3 install keras\
       If there is error when pip3 command does not recognize, you guy can use: 'python -m pip' instead of 'pip3'\
       
-  1.3. Download YOLOv3 model: https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/yolo.h5 \
+  1.3. Download YOLOv3 model: https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/yolo.h5<br/>
   
 2. Put Yolov3 model (yolo.h5) in current dictionary which you've clone\
 3. Arguments should be known:\
    3.1: detection_speed: You can adjust speed by using one of these: "normal(defaul)", "fast", "faster" , "fastest", "flash"\
-   3.2: method .CustomObjects(): add object's name to detect what you want to
+   3.2: method .CustomObjects(): add object's name to detect what you want to\
        Note: With some have more than 1 word, add underscore(_) between them. (E.g cell phone should be cell_phone)\
        - List of object name:\
           person,  bicycle,  car, motorcycle, airplane, bus, train,  truck,  boat,  traffic light,  fire hydrant, stop_sign,
